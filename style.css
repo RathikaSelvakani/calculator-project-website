@@ -1,0 +1,79 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+body{
+	background: radial-gradient(white,skyblue);
+}
+.main-div{
+    display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	
+}
+.calculator{
+	width:262px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 20px;
+    padding: 20px;
+}
+h1{
+	color:white;
+	text-align: center;
+	margin-top: 30px ;
+	margin-bottom: 15px;
+}
+input{
+	height: 80px;
+    width:100%;
+    background-color: #000000;
+    color: #fff;
+    font-size: 30px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2), 15px 15px 15px rgba(0,0,0,0.1);
+    text-align-last: end;
+}
+#bttn{
+	width:45%;
+	height:50px;
+	border-radius:20px ;
+	margin-top: 20px;
+	color: red;
+}
+#delete,#percentage{
+	margin-top: 20px;
+    color: green;
+}
+#percentage{
+	color:#fff;
+}
+#delete:hover{
+    background: radial-gradient(white,green); 
+	color:#000000;
+}
+.btn{
+	width:52px;
+	height:50px;
+	border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    font-weight: bold;
+    box-shadow:-15px -15px 15px rgba(255,255,255,0.2), 15px 15px 15px rgba(0,0,0,0.1); 
+    background-color: #000000;
+    color:#fff;
+}
+#bttn:hover{
+	background: radial-gradient(white,red); 
+	color:#000000;
+}
+.btn:hover{
+	cursor: pointer;
+	background: radial-gradient(white,gray); 
+	color: #000000;
+}
